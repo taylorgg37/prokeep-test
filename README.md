@@ -19,3 +19,6 @@
 
 ## Thanks for your review. 
 If you find a bug or want to add a feature, please open an issue or submit a pull request.
+
+## Screenshot
+![Screenshot of the Login Screen](/public/screen.png)
