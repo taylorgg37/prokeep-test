@@ -1,0 +1,121 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Login /> > Should be visible form 1`] = `
+<div>
+  <div
+    class="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-red-600 to-pink-500"
+  >
+    <div
+      class="max-w-md rounded-lg bg-white p-8 shadow-lg"
+    >
+      <h1
+        class="mb-8 text-center text-4xl font-bold text-purple-700"
+      >
+        Welcome to My Website
+      </h1>
+      <form
+        class="space-y-6"
+      >
+        <div>
+          <label
+            class="mb-2 block font-bold text-gray-700"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="w-full rounded-lg border border-gray-400 px-4 py-2"
+            id="email"
+            name="email"
+            placeholder="name@example.com"
+            type="email"
+          />
+        </div>
+        <div>
+          <label
+            class="mb-2 block font-bold text-gray-700"
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="w-full rounded-lg border border-gray-400 px-4 py-2"
+            id="password"
+            name="password"
+            placeholder="qwerty123"
+            type="password"
+          />
+        </div>
+        <div>
+          <button
+            class="w-full rounded-lg bg-purple-700 px-4 py-2 font-bold text-white hover:bg-purple-900"
+            id="submit-btn"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Login /> > The form should be visible 1`] = `
+<div>
+  <div
+    class="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-red-600 to-pink-500"
+  >
+    <div
+      class="max-w-md rounded-lg bg-white p-8 shadow-lg"
+    >
+      <h1
+        class="mb-8 text-center text-4xl font-bold text-purple-700"
+      >
+        Welcome to My Website
+      </h1>
+      <form
+        class="space-y-6"
+      >
+        <div>
+          <label
+            class="mb-2 block font-bold text-gray-700"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="w-full rounded-lg border border-gray-400 px-4 py-2"
+            id="email"
+            name="email"
+            placeholder="name@example.com"
+            type="email"
+          />
+        </div>
+        <div>
+          <label
+            class="mb-2 block font-bold text-gray-700"
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="w-full rounded-lg border border-gray-400 px-4 py-2"
+            id="password"
+            name="password"
+            placeholder="qwerty123"
+            type="password"
+          />
+        </div>
+        <div>
+          <button
+            class="w-full rounded-lg bg-purple-700 px-4 py-2 font-bold text-white hover:bg-purple-900"
+            id="submit-btn"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
